@@ -42,21 +42,21 @@ const MainBody = () => {
 
                 {/* left */}
                 <div className="left w-1/2 grid grid-cols-2 gap-1">
-                    <img src="/public/med1.png" className="col-span-2 w-full" alt="" />
-                    <img src="/public/med2.png" className="col-span-1 w-full" alt="" />
-                    <img src="/public/med3.png" className="col-span-1 w-full" alt="" />
-                    <img src="/public/deepbudha.png" className="col-span-2 w-full" alt="" />
-                    <img src="/public/med4.png" className="w-full" alt="" />
-                    <img src="/public/med5.png" className="w-full" alt="" />
-                    <img src="/public/med6.png" className="w-full" alt="" />
-                    <img src="/public/med7.png" className="w-full" alt="" />
+                    <img src="/med1.png" className="col-span-2 w-full" alt="" />
+                    <img src="/med2.png" className="col-span-1 w-full" alt="" />
+                    <img src="/med3.png" className="col-span-1 w-full" alt="" />
+                    <img src="/deepbudha.png" className="col-span-2 w-full" alt="" />
+                    <img src="/med4.png" className="w-full" alt="" />
+                    <img src="/med5.png" className="w-full" alt="" />
+                    <img src="/med6.png" className="w-full" alt="" />
+                    <img src="/med7.png" className="w-full" alt="" />
                 </div>
                 {/* right */}
                 <div className="right flex-1 px-10">
                     <div className="product-name text-[40px] text-[#313131]">
                         <h1>Manuka Honey <br /> UMF 24+ <br /> MGO 1122+</h1>
                         <button className="bg-[#66666626] mt-5 flex gap-2 items-center justify-center rounded-2xl p-2">
-                            <img src="/public/warning.png" alt="" />
+                            <img src="/warning.png" alt="" />
                             <span className="text-[14px] text-[#666666]">What is UMF and MGF?</span>
                         </button>
                     </div>
@@ -64,11 +64,11 @@ const MainBody = () => {
                         <div className="flex items-center justify-between">
                             <span>The Optimiser</span>
                             <span className="flex items-center gap-x-1">
-                                <img src="/public/heart.png" alt="" />
-                                <img src="/public/heart.png" alt="" />
-                                <img src="/public/heart.png" alt="" />
-                                <img src="/public/heart.png" alt="" />
-                                <img src="/public/heart.png" alt="" />
+                                <img src="/heart.png" alt="" />
+                                <img src="/heart.png" alt="" />
+                                <img src="/heart.png" alt="" />
+                                <img src="/heart.png" alt="" />
+                                <img src="/heart.png" alt="" />
                                 825 REVIWS
                             </span>
                         </div>
@@ -80,25 +80,25 @@ const MainBody = () => {
                         </p>
                     </div>
                     <div className="flex items-center justify-between mt-14">
-                        <img src="/public/cert1.svg" alt="" />
-                        <img src="/public/cert2.svg" alt="" />
-                        <img src="/public/cert3.svg" alt="" />
-                        <img src="/public/cert4.svg" alt="" />
-                        <img src="/public/cert5.svg" alt="" />
-                        <img src="/public/cert6.svg" alt="" />
+                        <img src="/cert1.svg" alt="" />
+                        <img src="/cert2.svg" alt="" />
+                        <img src="/cert3.svg" alt="" />
+                        <img src="/cert4.svg" alt="" />
+                        <img src="/cert5.svg" alt="" />
+                        <img src="/cert6.svg" alt="" />
                     </div>
                     <div className="products mt-5">
                         <span className="py-3">SIZE (SELECT ONE)</span>
                         <br />
                         <span>Variant: 126g| 4.4oz</span>
                         <div className="mt-5 grid grid-cols-4 gap-4">
-                            <img src="/public/prod1.png" alt="" />
-                            <img src="/public/prod2.png" alt="" />
-                            <img src="/public/prod3.png" alt="" />
-                            <img src="/public/prod4.png" alt="" />
-                            <img src="/public/prod5.png" alt="" />
-                            <img src="/public/prod6.png" alt="" />
-                            <img src="/public/prod7.png" alt="" />
+                            <img src="/prod1.png" alt="" />
+                            <img src="/prod2.png" alt="" />
+                            <img src="/prod3.png" alt="" />
+                            <img src="/prod4.png" alt="" />
+                            <img src="/prod5.png" alt="" />
+                            <img src="/prod6.png" alt="" />
+                            <img src="/prod7.png" alt="" />
                         </div>
                         <div className="desc mt-8">
                             <p className="text[#FBF9F6]">PAYMENT OPTIONS (SELECT ONE)</p>
@@ -119,7 +119,7 @@ const MainBody = () => {
 
                                 </div>
                                 <div className="flex gap-2 items-center text-[12px] ">
-                                    <img src="/public/load.png" className="size-[16px] mt-5" alt="" />
+                                    <img src="/load.png" className="size-[16px] mt-5" alt="" />
                                     <p className="mt-5">What is a Subscription?</p>
                                 </div>
                             </div>
@@ -140,32 +140,32 @@ const MainBody = () => {
 
                             <div className="mt-8 bg-[#F2F2F2] rounded-2xl">
                                 <div className="flex justify-between items-center w-1/2 p-5 m-auto">
-                                    <img src="/public/left.png" alt="" />
+                                    <img src="/left.png" alt="" />
                                     <h1>Beauty Bundle</h1>
-                                    <img src="/public/right.png" alt="" />
+                                    <img src="/right.png" alt="" />
                                 </div>
 
                                 <div className="m-auto p-5 flex items-center justify-center gap-x-3">
                                     <div className="flex flex-col items-center justify-center gap-y-2">
-                                        <img src="/public/cart1.png" alt="" />
+                                        <img src="/cart1.png" alt="" />
                                         <h2>UMF 20+</h2>
                                         <button className="border border-gray-400 px-2 py-1 flex items-center justify-center rounded-4xl">
                                             <span>250g</span>
-                                            <img src="/public/dropdown.png" alt="" />
+                                            <img src="/dropdown.png" alt="" />
                                         </button>
                                     </div>
                                     <span>+</span>
                                     <div className="flex flex-col items-center justify-center gap-y-2">
-                                        <img src="/public/cart2.png" alt="" />
+                                        <img src="/cart2.png" alt="" />
                                         <h2>UMF 24+</h2>
                                         <button className="border border-gray-400 px-2 py-1 flex items-center justify-center rounded-4xl">
                                             <span>250g</span>
-                                            <img src="/public/dropdown.png" alt="" />
+                                            <img src="/dropdown.png" alt="" />
                                         </button>
                                     </div>
                                     <span>+</span>
                                     <div className="flex flex-col items-center justify-center gap-y-2">
-                                        <img src="/public/cart3.png" alt="" />
+                                        <img src="/cart3.png" alt="" />
                                         <h2>Wooden Spoon</h2>
                                     </div>
 
@@ -183,7 +183,7 @@ const MainBody = () => {
                             <div className="mt-10 bg-[#FBF9F6]">
                                 <div className="flex items-center text-nowrap gap-x-4 justify-between">
                                     <div className="flex items-center justify-center">
-                                        <img src="/public/Colourclub Logo.png" alt="" />
+                                        <img src="/Colourclub Logo.png" alt="" />
                                         <span>Colourclub members earn up to</span>
                                     </div>
                                     <div className="flex items-center justify-center">
@@ -207,7 +207,7 @@ const MainBody = () => {
                             <div className="flex items-center  justify-between my-5">
                                 <div className="flex  flex-col">
                                     <span>AFTER PAY</span>
-                                    <span className="flex items-center ">or 4 interest-free payments of $13.97 with <img src="/public/afterpay.png" alt="" /><img src="/public/warning.png" alt="" /></span>
+                                    <span className="flex items-center ">or 4 interest-free payments of $13.97 with <img src="/afterpay.png" alt="" /><img src="/warning.png" alt="" /></span>
                                 </div>
 
                             </div>

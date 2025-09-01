@@ -9,14 +9,14 @@ const Navbar = () => {
         </button>
         <a href="">Shop</a>
         <a href="">Explore</a>
-        <img src="/public/new_zealand_honey_logo.svg.png" alt="" />
+        <img src="/new_zealand_honey_logo.svg.png" alt="" />
         <a href="">About</a>
         <a href="">Rewards</a>
         <a href="">Contact</a>
         <div className="flex items-center justify-between gap-x-5">
-        <img src="/public/Account.svg" alt="" />
-        <img src="/public/serach.svg" alt="" />
-        <img src="/public/wishlist.svg" alt="" />
+        <img src="/Account.svg" alt="" />
+        <img src="/serach.svg" alt="" />
+        <img src="/wishlist.svg" alt="" />
         </div>
     </div>
     </>
