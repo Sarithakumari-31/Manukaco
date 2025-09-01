@@ -4,11 +4,11 @@ import Summary from "./Summary"
 const scales = [
     {
         id: 1,
-        name: "UMF 10+"
+        name: "UMF 10 +"
     },
     {
         id: 2,
-        name: "UMF 15+"
+        name: "UMF 15+ "
     },
     {
         id: 3,
