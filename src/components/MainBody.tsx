@@ -1,5 +1,4 @@
 import { useState } from "react"
-import Summary from "./Summary"
 
 const scales = [
     {
@@ -34,7 +33,7 @@ const scales = [
 
 const MainBody = () => {
 
-    const [scale, setScale] = useState(1);
+    // const [scale, setScale] = useState(1);
     const [active, setActive] = useState(1)
 
     return (

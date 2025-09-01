@@ -4,6 +4,8 @@ const Summary: React.FC = () => {
   const [selectedUMF, setSelectedUMF] = useState<string>('10+');
   const [tasteProfile, setTasteProfile] = useState<number>(50);
 
+  console.log(selectedUMF)
+
   const umfOptions = [
     { value: '10+', label: 'UMF™ 10+', selected: true },
     { value: '15+', label: 'UMF™ 15+', selected: false },
@@ -52,7 +54,7 @@ const Summary: React.FC = () => {
       <div className="px-4 py-4 border-b border-gray-300">
         <h3 className="text-xs font-semibold text-gray-800 tracking-wide mb-4">UMF™ SCALE</h3>
         <div className="grid grid-cols-4 gap-2">
-          {umfOptions.map((option, index) => (
+          {umfOptions.map((option) => (
             <button
               key={option.value}
               onClick={() => setSelectedUMF(option.value)}
